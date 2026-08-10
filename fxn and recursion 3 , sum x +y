@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+//function prototype
+float sum( float x, float y);
+
+
+int main ()
+{ float x,y;
+	printf(" enter first number");
+	scanf ("%f",&x);
+	
+	printf("enter second number");
+	scanf("%f",&y);
+	//fxn call up to 2 decimal places 
+	float f= sum(x,y);
+	printf("after addition of both number, we got %0.2f :",f);
+	return 0;
+}
+
+//fxn definitation
+float sum (float x, float y)
+{ return x+y;}
+
