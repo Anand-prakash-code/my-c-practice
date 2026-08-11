@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int main ()
+
+{ int random ,guess ,no_of_guess=0;
+
+srand(time(NULL));
+
+	printf("welcome to world of guessing number\n");
+
+	random =rand ()%100+1;//it should be written above do bcz u know 
+
+do  { printf("\nplease enter your guess between 1 to 100:::");
+
+scanf("%d",&guess);
+no_of_guess++;
+
+if (guess < random)
+	{ printf("enter a larger number\n\n");}
+	if (guess > random)
+	{ printf("enter a smaller number\n\n");}
+	if (guess ==random)
+	{ printf("congratulations, your guess is correct\n in %d attempt", no_of_guess); }}
+	while (guess !=random);
+}
