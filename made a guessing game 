@@ -19,8 +19,12 @@ no_of_guess++;
 
 if (guess < random)
 	{ printf("enter a larger number\n\n");}
+
 	if (guess > random)
 	{ printf("enter a smaller number\n\n");}
+
+// yaha else mat lagana 🫣
+
 	if (guess ==random)
 	{ printf("congratulations, your guess is correct\n in %d attempt", no_of_guess); }}
 	while (guess !=random);
