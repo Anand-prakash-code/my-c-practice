@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main ()
+{ int choice;
+do {
+printf(" welcome to simple calculator\n");
+
+printf("select a choice\n");
+printf("addition \n");
+printf("subtraction\n");
+printf("division\n");
+printf("multiplication\n");
+printf("\nexit");
+
+scanf("%d",&choice);
+}while (choice !=7);
+
+}
