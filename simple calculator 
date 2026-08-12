@@ -13,6 +13,7 @@ printf("multiplication\n");
 printf("\nexit");
 
 scanf("%d",&choice);
+
 }while (choice !=7);
 
 }
