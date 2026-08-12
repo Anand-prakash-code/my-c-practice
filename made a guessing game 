@@ -27,5 +27,6 @@ if (guess < random)
 
 	if (guess ==random)
 	{ printf("congratulations, your guess is correct\n in %d attempt", no_of_guess); }}
+
 	while (guess !=random);
 }
