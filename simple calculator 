@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 int main ()
+
 { int choice;
 do {
 printf(" welcome to simple calculator\n");
