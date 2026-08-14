@@ -17,6 +17,7 @@ do  { printf("\nplease enter your guess between 1 to 100:::");
 scanf("%d",&guess);
 no_of_guess++;
 
+
 if (guess < random)
 	{ printf("enter a larger number\n\n");}
 
