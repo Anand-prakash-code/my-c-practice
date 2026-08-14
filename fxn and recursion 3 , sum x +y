@@ -14,7 +14,9 @@ int main ()
 
 	//fxn call up to 2 decimal places 
 	float f= sum(x,y);
+
 	printf("after addition of both number, we got %0.2f :",f);
+
 	return 0;
 }
 
