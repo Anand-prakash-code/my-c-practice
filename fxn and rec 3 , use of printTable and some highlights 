@@ -3,7 +3,6 @@
 void printTable( float n);
 
 int main()
-
 { float n ;
 
 printf(" enter number");
