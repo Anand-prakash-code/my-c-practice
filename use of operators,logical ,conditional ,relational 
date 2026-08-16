@@ -17,5 +17,4 @@ int main ()
 if (marks<0 || marks>100)
 {printf(" invalid score\n");}
 
-
 }
