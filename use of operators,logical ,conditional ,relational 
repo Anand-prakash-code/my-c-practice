@@ -8,6 +8,7 @@ int main ()
  
  if (marks>30 && marks <=100)
  { printf("you are passed\n");}
+
  
  if (marks <=30 && marks>=0 )
 { printf("you are fail\n");} 
