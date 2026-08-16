@@ -13,6 +13,7 @@ int main ()
  if (marks <=30 && marks>=0 )
 { printf("you are fail\n");} 
 
+
 if (marks<0 || marks>100)
 {printf(" invalid score\n");}
 
