@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 //function prototype
-
 float divide( float x, float y);
 
 
