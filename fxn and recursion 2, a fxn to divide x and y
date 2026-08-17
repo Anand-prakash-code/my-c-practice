@@ -24,6 +24,7 @@ int main ()
 
 
 //fxn definitation
+
 float divide (float x, float y)
 { return x/y;}
 
