@@ -3,7 +3,6 @@
 //function prototype
 float sum( float x, float y);
 
-
 int main ()
 { float x,y;
 	printf(" enter first number");
