@@ -6,9 +6,11 @@ int main ()
 printf("enter a natural  number ");
 scanf("%d",&n);
 
+
 int sum;
 for (int i = 1 ; i<=n ;i++)
 { sum = sum +i;// sum +=1
+
 
 printf (" sum is %d\n", sum);}
  return 0;
