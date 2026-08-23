@@ -9,6 +9,7 @@ switch(day)
 { case 1: printf("monday\n");
   break;  
  case 2 :printf("tuesday");
-break;}
+break;
+ default: printf("thanks");}
 
 return 0;}
