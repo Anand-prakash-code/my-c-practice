@@ -5,12 +5,12 @@ void printTable( float n);
 int main()
 { float n ;
 
-printf(" enter number");
+printf("enter number");
 
 scanf("%f",&n);
 
 
-printTable( n);//u cant put data type in fxn call , also here n is called argument/actual parameter 
+printTable( n); //u cant put data type in fxn call , also here n is called argument/actual parameter 
 
 return 0;
 }
