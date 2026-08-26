@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-void printhello() ;      // fxn declaration/prototype
+void printhello() ;      // fxn declaration or prototype
+
 void printgoodbye();
 
 int main ()
