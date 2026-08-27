@@ -8,7 +8,7 @@ int main ()
 printgoodbye();
 return 0;}
 
-void printhello()            // fxn definition
+void printhello()          // fxn definition
 { int x = 1;
      printf("hello\n");
     scanf("%d",&x);
