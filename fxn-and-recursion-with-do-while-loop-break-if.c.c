@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-void printhello() ;      // fxn declaration/prototype
+void printhello() ;        // fxn declaration/prototype
 void printgoodbye();
 
 int main ()
-{ printhello ();       //fxn call
+{ printhello ();            //fxn call
 printgoodbye();
 return 0;}
 
