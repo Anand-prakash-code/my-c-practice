@@ -8,9 +8,9 @@
 {float x,y,z,m;
 printf("enter your marks in math ,sanskrit,and science\n ");
 scanf("%f,%f,%f",&x,&y,&z);
-m = PercentMarks (x,y,z);
+m = PercentMarks (x,y,z); 
 printf("so the percentage is %f\n",m);
-return 0;
+return 0; // the return is must bcz it says that  the computer has completed the code successfullu withouy any error 
 }
 
 float PercentMarks (float x,float y,float z)
