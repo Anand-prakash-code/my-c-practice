@@ -2,7 +2,7 @@
 
  int main ()
  { int age= 4;
-    int *ptr = &age ; // when we use * with a variable it says that variable is not a reegular variable
+    int *ptr = &age ; // when we use * with a variable it says that variable is not a reegular variable and *ptr mean the value stored at the memory address that ptr is pointing to
     printf ("%d\n ",age); // print value=4
     printf(" %d\n",&age);// print address=6422296
     printf("%d\n",*ptr);//print value =4
