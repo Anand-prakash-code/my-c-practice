@@ -12,7 +12,6 @@ int main (){
     printinfo ( s1);
     return 0;
 }
-
 void printinfo (st s1){ 
     printf (" student info \n");
     printf (" student name is %s\n",s1.name);
