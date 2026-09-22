@@ -12,9 +12,7 @@ for(int i = a; i<=b; i++){
         }else{
             printf("odd\n");
         }
-
     }
 }
 
-
-return 0;
+return 0;}
