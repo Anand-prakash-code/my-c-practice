@@ -1,20 +1,26 @@
- #include<stdio.h>
+  #include<stdio.h>
 
 int main ()
 {  int n =7;
-    
+int prev1,prev2,curr;
     if (n<3){ printf ("no fabonicc possible");}
-     int prev1=0;
-     int prev2=1;
-     int curr;
-     curr<=n;
-    if (n>=3)
-    { curr= prev1 +prev2 ;
+     else
+    {printf("0 1 1 ");
+
+ prev2=1;
+ prev1=1;
+    int count =1; 
+    do { 
+        curr= prev1 +prev2 ;
         prev2=prev1;
          prev1=curr;
-     printf("%d",curr);}
+     printf("%d ",curr);
+    count++; }while(count<=n);}
+ 
 
+return 0;
+    
+}
 
 
     
-}
